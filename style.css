@@ -10,7 +10,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/me.jpg');
+    background: url('/images/me.jpg');
     background-size:cover;
     position:relative;
     padding: 0;
@@ -20,6 +20,8 @@
 .hero_title {
     padding-top: 10rem;
     font-size: 4.5rem;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; */
 }
 .hero_desc {
     font-size: 2rem;
@@ -31,6 +33,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.blog_text {
+    text-align: center;
+    color: black;
 }
 .image_about {
     width: 100%;
@@ -70,7 +76,6 @@
 .servicesText:hover {
     border: 1px solid #008000;
 }
-
 .footer {
     background-color: #808080;
     text-align: center;
